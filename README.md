@@ -5,7 +5,7 @@ oxide is a debian-linux based operating system for home camputers, oxide focuses
 
 oxide uses [kde](https://kde.org/) as an desktop enviornment included with [wine](https://www.winehq.org/) package for windows compatibility layer which allows you to run windows programs on oxide
 
-oxide iso files will be released on [oxide github page](https://github.com/arshavirmirzakhani/oxidelinux)
+oxide iso files will be released on [oxide github page](https://github.com/oxidelinux/oxide/)
 
 Who is the creator of oxide?
 ============================

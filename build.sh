@@ -5,7 +5,7 @@ DISTRO_NAME="oxide"
 # Set the Debian version
 DEBIAN_VERSION="bookworm"
 # Set image version
-VERSION="0.1.2-alpha"
+VERSION="1.0.0-alpha"
 # Set image publisher
 PUBLISHER="arshavir mirzakhani - github.com/arshavirmirzakhani"
 # Set boot logo

@@ -24,7 +24,7 @@ do
   cd $DISTRO_NAME-$arch
   # Run lb config with arguments
   lb config \
-    -a $arch \
+    --architecture $arch \
     --distribution $DEBIAN_VERSION \
     --mirror-bootstrap http://deb.debian.org/debian/ \
     --mirror-chroot http://deb.debian.org/debian/ \
@@ -34,7 +34,6 @@ do
     --iso-publisher $PUBLISHER \
     --iso-volume $DISTRO_NAME-$VERSION \
     --system normal
-    --validate
   
     # Customize live build config
   cat ../packages.txt >> config/package-lists/desktop.list.chroot

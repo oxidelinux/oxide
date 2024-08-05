@@ -33,6 +33,7 @@ do
     --iso-preparer $DISTRO_NAME-$VERSION \
     --iso-publisher $PUBLISHER \
     --iso-volume $DISTRO_NAME-$VERSION \
+    --system normal
     --validate
   
     # Customize live build config

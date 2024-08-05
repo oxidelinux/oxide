@@ -38,7 +38,7 @@ do
     # Customize live build config
   cat ../packages.txt >> config/package-lists/desktop.list.chroot
 
-  cp -a ../chroot/ config/hooks/normal/
+  cp -a ../chroot/* config/hooks/normal/
   
   # Run lb build to create the live image
   lb build

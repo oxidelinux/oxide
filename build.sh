@@ -24,7 +24,7 @@ do
   cd $DISTRO_NAME-$arch
   # Run lb config with arguments
   lb config \
-    --architecture $arch \
+    -a $arch \
     --distribution $DEBIAN_VERSION \
     --mirror-bootstrap http://deb.debian.org/debian/ \
     --mirror-chroot http://deb.debian.org/debian/ \

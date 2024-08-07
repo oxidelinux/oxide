@@ -2,7 +2,7 @@
 
 dpkg --add-architecture i386
 mkdir -pm755 /etc/apt/keyrings
-wget -O /etc/apt/keyrings/winehq-archive.key https://dl.winehq.org/wine-builds/winehq.key
-apt-key add /etc/apt/keyrings/winehq-archive.key
+wget -O ./etc/apt/keyrings/winehq-archive.key https://dl.winehq.org/wine-builds/winehq.key
+apt-key add ./etc/apt/keyrings/winehq-archive.key
 apt update
 apt install --install-recommends winehq-stable

@@ -19,6 +19,7 @@ do
   # Run lb config with arguments
   lb config \
     --architecture $arch \
+    --archive-areas "main contrib non-free"
     --distribution $DEBIAN_VERSION \
     --mirror-bootstrap http://deb.debian.org/debian/ \
     --mirror-chroot http://deb.debian.org/debian/ \

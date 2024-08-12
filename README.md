@@ -1,7 +1,7 @@
 What is oxide?
 ==============
 
-oxide is a debian-linux based operating system for home camputers, oxide focuses on security, compatibility and ease of use
+oxide is a ubuntu-linux based operating system for home camputers, oxide focuses on security, compatibility and ease of use
 
 oxide uses [kde](https://kde.org/) as an desktop enviornment included with [wine](https://www.winehq.org/) package for windows compatibility layer which allows you to run windows programs on oxide
 
